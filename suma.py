@@ -2,5 +2,6 @@ def suma(a,b):
     return a+b 
 
 
-
-print(suma(2,4))
+a = int(input("ingrese el primer numero para sumar"))
+b = int(input("ingrese el segundo numero para sumar"))
+print(suma(a,b))
